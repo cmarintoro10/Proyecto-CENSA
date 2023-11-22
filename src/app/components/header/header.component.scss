@@ -1,0 +1,25 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .rainbow-text {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    transition: background-image 0.3s; /* Agregar una transición para suavizar el cambio */
+  }
+  
+  .rainbow-text:hover {
+    background-image: linear-gradient(to right, #ff0000, #ff9900, #ffff00, #33cc33, #3399ff, #9900cc, #ff3399);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
